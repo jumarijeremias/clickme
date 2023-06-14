@@ -10,7 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Http\Controllers\CountController;
 
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/get-count', [CountController::class, 'getCount']);
+Route::post('/add-count', [CountController::class, 'addCount']);
