@@ -6,3 +6,25 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+.background-color-dafault {
+    background-color: #e9edf9;
+}
+
+.text-color-headings {
+    color: #2e384d;
+}
+
+.panel-bg {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 40px;
+    transition: 0.3s;
+    &:hover {
+        border-color: #0b6bf2;
+        box-shadow: 0px 2px 10px #b5b4b4;
+    }
+}
+

@@ -7,7 +7,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>Click Me</title>
 </head>
-<body>
+<body class="background-color-dafault">
     <div class="container" id="app"></div>
     <script src="{{ asset('js/app.js') }}" defer></script>
 </body>
