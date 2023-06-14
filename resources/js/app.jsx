@@ -11,5 +11,7 @@ require('./bootstrap');
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+import ReactDOM from 'react-dom';    
+import Counter from './components/Counter';
 
-require('./components/Example');
+ReactDOM.createRoot(document.getElementById('app')).render(<Counter />);  
